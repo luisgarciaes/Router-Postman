@@ -2,7 +2,7 @@ let express = require('express');
 
 let app = express();
 
-let personsRoute = require('./routes/person');
+let personsRoute = require('./src/routes/person');
 
 app.set('view engine', 'ejs');
 app.use(personsRoute);
